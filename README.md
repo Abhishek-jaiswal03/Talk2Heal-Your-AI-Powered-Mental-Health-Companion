@@ -15,5 +15,6 @@ Mental health matters, and in today's world, finding support should be simple, a
 # Screenshot
 
 ![image](https://github.com/user-attachments/assets/5b78c022-5059-479e-b250-d2f4edffbff8)
+![image](https://github.com/user-attachments/assets/77997283-2367-443a-90ae-30284e6e9a4b)
 
 
