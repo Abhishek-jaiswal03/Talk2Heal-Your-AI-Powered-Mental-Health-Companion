@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mental-health-Chatbot 
 This is an AI-powered bot designed to provide emotional support and assistance to individuals struggling with mental health issues. 
 It can help individuals access mental health resources, offer guidance and support. 
@@ -49,3 +50,6 @@ flask --app app --debug run
 
 
 ![image](https://user-images.githubusercontent.com/62094358/221975328-2c9500a6-d551-4704-8544-e60e449bcdda.png)
+=======
+# Talk2Heal
+>>>>>>> 4c3713e5438a776b42c78af2fc04540b83cb4a8e
