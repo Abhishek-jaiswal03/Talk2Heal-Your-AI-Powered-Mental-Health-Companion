@@ -1,4 +1,4 @@
-#Talk2Heal:Mental Health Platform
+#Talk2Heal:Your AI-Powered Mental Health Companion
 
 This is an AI-powered Platform designed to provide emotional support and assistance to individuals struggling with mental health issues. 
 It can help individuals access mental health resources, offer guidance and support. 
