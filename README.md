@@ -9,8 +9,11 @@ Mental health matters, and in today's world, finding support should be simple, a
 
 # Tech Stack
 •Frontend: HTML, CSS, JavaScript
+
 •Backend: Python, Flask
+
 •AI & NLP: TensorFlow, Natural Language Toolkit (NLTK)
+
 
 # Screenshot
 
