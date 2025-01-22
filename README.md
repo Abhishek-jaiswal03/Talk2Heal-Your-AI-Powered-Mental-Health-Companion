@@ -3,9 +3,13 @@ Mental health matters, and in today's world, finding support should be simple, a
 
 # Features
 •AI-Powered Chat: Provides empathetic, non-judgmental support for mental health discussions.
+
 •Accessibility-Friendly: Designed for easy use across various devices and platforms.
+
 •Secure & Anonymous: Prioritizes user privacy with secure and confidential interactions.
+
 •Emotion Recognition: Understands user sentiment to provide tailored responses.
+
 
 # Tech Stack
 •Frontend: HTML, CSS, JavaScript
