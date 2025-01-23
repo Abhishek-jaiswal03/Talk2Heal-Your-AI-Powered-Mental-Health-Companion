@@ -9,13 +9,13 @@ from keras.models import load_model
 from flask import Flask, render_template, request
 import json
 import random
-
+from tensorflow.keras.models import load_model
 # Initialize Flask app
 app = Flask(__name__)
 app.static_folder = 'static'
 
 # Load intent recognition model and tokenizer
-model = load_model('model.h5')
+model = load_model('model')
 intents = json.loads(open('intents.json').read())
 words = pickle.load(open('texts.pkl', 'rb'))
 classes = pickle.load(open('labels.pkl', 'rb'))
