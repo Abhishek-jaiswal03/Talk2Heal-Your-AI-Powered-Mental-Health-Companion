@@ -59,7 +59,7 @@ msgerChat.scrollTop += 500;
 }
 function botResponse(rawText) {
 // Bot Response
-$.get("/get", { msg: rawText }).done(function (data) {
+$.get("https://talk2heal-your-ai-powered-mental-health.onrender.com", { msg: rawText }).done(function (data) {
 console.log(rawText);
 console.log(data);
 const msgText = data;
