@@ -30,7 +30,7 @@ const msgerChat = get(".msger-chat");
 // Icons made by Freepik from www.flaticon.com
 const BOT_IMG = "static/img/mhcicon.png";
 const PERSON_IMG = "static/img/person.png";
-const BOT_NAME = "Aarav";
+const BOT_NAME = "Abhishek";
 const PERSON_NAME = "You";
 msgerForm.addEventListener("submit", event => {
 event.preventDefault();
