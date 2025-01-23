@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Talk2Heal</title>
-  <link rel="shortcut icon" href="static/img/mhcicon.png" type="image/x-icon">
+  <!-- Updated favicon with url_for -->
+  <link rel="shortcut icon" href="{{ url_for('static', filename='img/mhcicon.png') }}" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <!-- Updated stylesheet link with url_for -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
@@ -20,7 +22,7 @@
 
 <div id="chatbot" class="main-card collapsed">
   <button id="chatbot_toggle">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15 4v7H5.17l-.59.59-.58.58V4h11m1-2H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm5 4h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15 4v7H5.17l-.59.59-.58.58V4h11m1-2H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm5 4h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1z"/></svg>
   </button>
   <div class="main-title">
     <div>
@@ -35,7 +37,8 @@
 
   <main class="msger-chat">
     <div class="msg left-msg">
-      <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>
+      <!-- Updated avatar image URL -->
+      <div class="msg-img" style="background-image: url({{ url_for('static', filename='img/avatar.png') }})"></div>
       <div class="msg-bubble">
         <div class="msg-info">
           <div class="msg-info-name">Abhishek</div>
@@ -54,6 +57,8 @@
   </form>
 
   <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  <!-- Updated bot.js script link -->
   <script src="{{ url_for('static', filename='js/bot.js') }}"></script>
 </body>
 </html>
+
