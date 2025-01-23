@@ -106,5 +106,5 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 hist = model.fit(train_x, train_y, epochs=200, batch_size=5, verbose=1)
 
 # Save the trained model
-model.save('model.h5')
-print("Model created and saved as 'model.h5'")
+model.save('model')
+print("Model created and saved as 'model'")
