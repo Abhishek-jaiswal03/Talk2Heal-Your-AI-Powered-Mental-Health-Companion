@@ -20,8 +20,8 @@ Mental health matters, and in today's world, finding support should be simple, a
 
 
 # Screenshot
+![chatbot](https://github.com/user-attachments/assets/1f3e7d5f-5293-4c26-9546-0230b2cd83b8)
 
-![image](https://github.com/user-attachments/assets/5b78c022-5059-479e-b250-d2f4edffbff8)
-![image](https://github.com/user-attachments/assets/77997283-2367-443a-90ae-30284e6e9a4b)
+![chatbot2](https://github.com/user-attachments/assets/600fba18-5e40-4f12-b5e9-60516931c5ee)
 
 
